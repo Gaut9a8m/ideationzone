@@ -1,0 +1,145 @@
+.listing {
+    background-color: white;
+        width: 100%; 
+        height: 100%;   
+      display: flex-column;
+      justify-content: center;
+      overflow: visible;
+      margin:2px 5px 0px 5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      color: #757575;
+      font-family: "Arial";
+      font-size: 14px;
+      line-height: 1;
+      visibility:visible;
+  }
+  
+  .content {
+    width: 100%;
+      padding: 12px;
+      visibility: visible;
+      min-height: 10rem;
+      border: 1px solid #000c13;
+      margin-bottom:5px;
+      margin-top:5px;
+
+  }
+  
+  h3.title {
+      color: #4183c3;
+      font-family: "Arial";
+      font-size: 22px;
+      font-weight: bold;
+      font-style: normal;
+      text-align: left;
+    margin: 0px;
+  }
+  
+  h3.address {
+      width: 100%;
+      height: auto;
+    margin: 5px 0px 15px;
+    padding:0px;
+      color: #4183c3;
+      font-family: "Arial";
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      text-align: left;
+  }
+  
+  h4.beds {
+    margin: 5px 0px;
+    font-size: 13px;
+    color: #3b3b3b;
+  }
+  
+  p.description {
+      width: 100%;
+      color: #666666;
+      font-family: "Arial";
+      font-size: 13px;
+      text-align: left;
+    line-height: 135%;
+  }
+  .price {
+      color: #fa803d;
+      font-family: "Arial";
+      font-size: 16px;
+      font-weight: bold;
+      font-style: normal;
+    height: 100%;
+    text-align: bottom; 
+    float: left;
+  }
+  
+  .availability{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    color: green;
+    float: right;
+  }
+  .engaged{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    float: right;
+    color:red;
+  }
+  @media (max-width:800px) {
+    .featured-img{
+      width: 100%;
+      max-width: 220px;
+    }
+    .listing {
+      width: 100%;
+      max-height: 162px;
+    }
+    h3.title{
+      font-size: 16px;
+    }
+    .price{
+      font-size: 14px;
+      margin-top: 5px;
+    }
+    .availability{
+      margin:0px;
+    }
+  }
+  
+  @media (max-width:641px) {
+    .listing {
+        width: 100%;
+        max-height: 110px;
+      margin: 2px 0px;
+      -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        border-radius: 0px;
+    }
+    .featured-img{
+      width: 168px;
+      -moz-border-radius-topleft: 0px;
+      -webkit-border-top-left-radius: 0px;
+      border-top-left-radius: 0px;
+      -moz-border-radius-bottomleft: 0px;
+      -webkit-border-bottom-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+    h4.beds{
+      margin: 0px;
+    }
+    p.description{
+      display: none;
+    }
+    .price{
+      font-size: 15px;
+      margin-top: 10px;
+    }
+    .availability{
+      font-size:12px;
+      margin: 12px 0px;
+    }
+  }

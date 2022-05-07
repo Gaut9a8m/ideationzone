@@ -1,0 +1,24 @@
+  form{
+      width:100% !important;
+  }
+ .room input, textarea, select, option{
+    width:100%;
+    margin:auto;
+    margin-bottom: 0.8rem;
+    font-size:1.7rem;
+    background: none !important;
+    border-top: #03E9F4 1px solid !important;
+    border-left: #03E9F4 1px solid !important;
+    border-bottom: #03E9F4 3px solid !important;
+    border-right: #03E9F4 3px solid !important;
+    border-radius: 2px !important;
+    color: #03E9F4 !important;
+  }
+  
+label{
+    font-size:1.2rem;
+}
+.nofound{
+    color: #FFCC33 !important;
+    font-size:2rem;
+}
